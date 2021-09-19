@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="flowable" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer" target="1.8" />
+      <module name="mall-common" target="1.8" />
+      <module name="mall-order" target="1.8" />
+      <module name="mall-user" target="1.8" />
+      <module name="mall-user-consumer-demo" target="1.8" />
+      <module name="sidecar" target="1.8" />
+      <module name="simple-web" target="1.8" />
+      <module name="spring-cloud-alibaba-nacos-sidecar-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="flowable" options="-parameters" />
+      <module name="wfw" options="-parameters" />
+    </option>
+  </component>
+</project>
