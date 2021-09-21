@@ -9,7 +9,9 @@ import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-
+/**
+ * 增加注释
+ */
 @SpringBootApplication
 public class FlowableApplication {
     public static void main(String[] args) {
