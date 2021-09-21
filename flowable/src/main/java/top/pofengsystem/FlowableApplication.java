@@ -24,7 +24,7 @@ public class FlowableApplication {
     public CommandLineRunner init(final RepositoryService repositoryService,
                                   final RuntimeService runtimeService,
                                   final TaskService taskService) {
-        System.out.println("完成了一个功能");
+        System.out.println("修改了一个功能");
         return strings -> {
             System.out.println("Number of process definitions : " + repositoryService.createProcessDefinitionQuery().count());
             System.out.println("Number of tasks : " + taskService.createTaskQuery().count());
