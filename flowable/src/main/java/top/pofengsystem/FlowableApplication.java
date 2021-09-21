@@ -9,7 +9,11 @@ import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-
+/**
+ * 增加注释
+ * 继续增加注释
+ * @author YYH
+ */
 @SpringBootApplication
 public class FlowableApplication {
     public static void main(String[] args) {
@@ -20,7 +24,7 @@ public class FlowableApplication {
     public CommandLineRunner init(final RepositoryService repositoryService,
                                   final RuntimeService runtimeService,
                                   final TaskService taskService) {
-
+        System.out.println("修改了一个功能");
         return strings -> {
             System.out.println("Number of process definitions : " + repositoryService.createProcessDefinitionQuery().count());
             System.out.println("Number of tasks : " + taskService.createTaskQuery().count());
