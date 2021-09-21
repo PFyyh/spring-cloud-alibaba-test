@@ -89,6 +89,36 @@ git reflog
 
 ![image-20210918165055902](https://boot-generate.oss-cn-chengdu.aliyuncs.com/img/image-20210918165055902.png)
 
+## 删除总结
+
+当文件没有加入版本，那随便删除。
+
+##### 已经提交
+
+回滚到暂存区
+
+```shell
+git reset --soft <version>
+```
+
+然后执行回滚工作区
+
+```
+git reset Head
+```
+
+如果想要删除
+
+```shell
+git checkout --<file>
+```
+
+或者直接rm
+
+```shell
+rm <file>
+```
+
 ## 分支
 
 开发新功能的时候，需要创建分支。
