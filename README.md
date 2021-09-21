@@ -8,5 +8,3 @@
 - [ ] spring cloud alibaba 整合
 - [ ] nacos整合
 - [ ] flowable使用
-
-目前正在求职中
