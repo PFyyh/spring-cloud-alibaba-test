@@ -4,7 +4,10 @@
 
 ## 项目内容
 
+
+
 - [x] nacos集群搭建
+- [x] nacos、mysql安装文档
 - [ ] spring cloud alibaba 整合
 - [ ] nacos整合
 - [ ] flowable使用
