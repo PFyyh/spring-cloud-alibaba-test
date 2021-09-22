@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="business" />
         <module name="flowable" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="business" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="flowable" options="-parameters" />
       <module name="wfw" options="-parameters" />
