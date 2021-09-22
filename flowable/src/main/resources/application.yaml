@@ -1,6 +1,3 @@
-server:
-  port: 9000
-management:
-   endpoint:
-     flowable:
-       enabled: true
+spring:
+  profiles:
+    active: company

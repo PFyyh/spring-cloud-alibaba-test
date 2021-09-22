@@ -1,0 +1,12 @@
+server:
+  port: 9000
+management:
+  endpoint:
+    flowable:
+      enabled: true
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/flowable?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: password
